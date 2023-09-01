@@ -10,24 +10,26 @@
   </head>
   <body>
     <div class="container">
-      <div class="card">
-        <div class="card__left">
-          <span>Eduardo Porto</span>
-          <h1>Entendendo os Web Components</h1>
-          <p>
-            Esse HTML estará disponível no meu repositório do GitHub com o
-            principal objetivo de fazer você (e eu) e entendermos o significado
-            de web Components.
-          </p>
-        </div>
-        <div class="card__right">
-          <img src="/assets/gears.png" alt="Imagem de engrenagem" />
-        </div>
-      </div>
-    </div>
+      <card-news
+        autor="Eduardo"
+        title=" Estou aprendendo os Web Components"
+        link-url="www.google.com"
+        photo="/assets/gears.png"
+        content="Esse HTML estará disponível no meu repositório do GitHub com o
+      principal objetivo de fazer você (e eu) e entendermos o significado
+      de web Components."
+      >
+      </card-news>
 
-    <card-news></card-news>
-    <card-news></card-news>
-    <titulo-dinamico titulo="noticia urgente"></titulo-dinamico>
+      <card-news
+        autor="Eduardo Porto"
+        title=" Olha como fica fácil!"
+        link-url="www.google.com"
+        content="Esse HTML estará disponível no meu repositório do GitHub com o
+      principal objetivo de fazer você (e eu) e entendermos o significado
+      de web Components."
+      >
+      </card-news>
+    </div>
   </body>
 </html>
